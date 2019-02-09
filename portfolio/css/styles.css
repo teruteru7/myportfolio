@@ -1,0 +1,195 @@
+.menu{
+  position: fixed;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 2;
+}
+
+.menu p{
+  margin: auto;
+  font-family: 'Merienda', cursive ;
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgba(0,0,0,0.7);
+}
+
+.menu img{
+  opacity: 0.7;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(200,200,200,0.7);
+  z-index: 1;
+  display: none;
+
+
+}
+
+.big {
+  text-decoration: none;
+  font-family: 'Merienda', cursive ;
+  font-weight: normal;
+  font-size: 50px;
+  color: black;
+  opacity: 0.7;
+}
+
+.small {
+  text-decoration: none;
+  font-family: 'Merienda', cursive ;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+  opacity: 0.5;
+}
+
+.modal2{
+  text-align: left;
+}
+
+.modal3{
+  text-align: center;
+  margin: auto;
+
+}
+
+#menu2{
+    opacity: 0.7;
+    top: 10px;
+}
+
+/* 全体の余白 */
+.all{
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 100px
+  z-index: 0;
+}
+
+/* 大きい題名の字体について */
+.about h1{
+  font-weight: normal;
+  font-family: 'Merienda', cursive ;
+  font-size: 50px;
+}
+
+/* 本文の字体について */
+.about{
+  font-family: Verdana;
+  margin-top: 100px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* 2つ目の題名の上の余白 */
+.about .about2{
+  margin-top: 130px;
+}
+
+/* 2つ目の本文の下の余白 */
+.about .about3{
+  margin-bottom: 40px;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sentence2 {
+  display: block;
+  display: none;
+  margin-top: 0;
+}
+
+.sentence3 {
+  margin-right: 50px;
+  display: block;
+}
+
+.twitter {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.koremade {
+  font-weight: bold;
+}
+
+.table td {
+  padding-right: 20px;
+}
+
+.hobbies{
+  margin-top: 30px;
+}
+
+/* .b{
+  filter: saturate(130%);
+} */
+
+.b:hover {
+  opacity: 0.7;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.hobbies {
+  position: relative;
+  z-index: 0;
+  }
+
+
+.hobbies p {
+  font-family: 'Merienda', cursive ;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  }
+
+.garally{
+  opacity: 0.7;
+  margin-top: 100px;
+}
+
+.garally h1 a{
+  font-weight: normal;
+  font-family: 'Merienda', cursive ;
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly
+}
+
+footer a{
+  text-decoration: none;
+  font-family: 'Merienda', cursive ;
+  font-size: 30px;
+  color: black;
+  opacity: 0.7;
+}

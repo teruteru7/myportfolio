@@ -1,0 +1,93 @@
+.menu{
+  position: fixed;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  background-color: white;
+}
+
+.menu p{
+  margin: auto;
+  font-family: 'Merienda', cursive ;
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgba(0,0,0,0.7);
+}
+
+.menu img{
+  opacity: 0.7;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(200,200,200,0.7);
+  z-index: 1;
+  display: none;
+}
+
+.big {
+  text-decoration: none;
+  font-family: 'Merienda', cursive ;
+  font-weight: normal;
+  font-size: 50px;
+  color: black;
+  opacity: 0.7;
+}
+
+.small {
+  text-decoration: none;
+  font-family: 'Merienda', cursive ;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+  opacity: 0.5;
+}
+
+.modal2{
+  text-align: left;
+}
+
+.modal3{
+  text-align: center;
+}
+
+#menu2{
+    opacity: 0.7;
+    top: 10px;
+}
+
+@media screen and (min-width:768px) {
+  .container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .item {
+    width: 30%;
+    height: 30%;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .container {
+    margin-top: 70px;
+  }
+
+  .item {
+    width: 100%
+  }
+}
+
+.item:hover {
+  opacity: 0.7;
+}
