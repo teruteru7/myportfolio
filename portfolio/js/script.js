@@ -18,5 +18,4 @@ $(function(){
 			$('.menu').stop();
 			$('.menu').css('display', 'none').fadeIn('50');
 	});
-
 });
